@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -15,8 +18,7 @@
         tools:targetApi="33">
         <activity
             android:name=".ui.authentication.AuthActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".ui.splash.RoutingActivity"
             android:theme="@style/Theme.App.Starting"
@@ -28,6 +30,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false"/>
+
 
     </application>
 

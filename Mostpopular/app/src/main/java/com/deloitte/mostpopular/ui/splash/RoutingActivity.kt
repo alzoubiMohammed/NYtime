@@ -10,6 +10,7 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import com.deloitte.mostpopular.ui.MainActivity
 import com.deloitte.mostpopular.ui.authentication.AuthActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
@@ -52,7 +53,8 @@ class RoutingActivity : AppCompatActivity() {
     }
 
     private fun startMainActivity() {
-       TODO()
+        startActivity(Intent(this@RoutingActivity, MainActivity::class.java))
+        finish()
     }
 
     private fun startAuthActivity() {

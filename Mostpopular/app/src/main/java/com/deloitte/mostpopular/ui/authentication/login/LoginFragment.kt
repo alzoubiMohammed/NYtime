@@ -1,5 +1,6 @@
 package com.deloitte.mostpopular.ui.authentication.login
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,6 +12,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.deloitte.mostpopular.databinding.FragmentLoginBinding
+import com.deloitte.mostpopular.ui.MainActivity
 import com.deloitte.mostpopular.ui.authentication.login.LoginViewModel.LoginAction.*
 import com.deloitte.mostpopular.ui.authentication.login.LoginViewModel.LoginEvent.OpenHomeScreen
 import com.deloitte.mostpopular.ui.authentication.login.LoginViewModel.LoginEvent.ShowToast
@@ -128,6 +130,8 @@ class LoginFragment : Fragment() {
     }
 
     private fun goToMainActivity() {
-     TODO()
+        startActivity(Intent(requireContext(), MainActivity::class.java)).also {
+            requireActivity().finish()
+        }
     }
 }

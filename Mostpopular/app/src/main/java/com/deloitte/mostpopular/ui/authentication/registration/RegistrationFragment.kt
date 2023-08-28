@@ -1,5 +1,6 @@
 package com.deloitte.mostpopular.ui.authentication.registration
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,6 +12,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import com.deloitte.mostpopular.databinding.FragmentRegistrationBinding
+import com.deloitte.mostpopular.ui.MainActivity
 import com.deloitte.mostpopular.ui.authentication.registration.RegistrationViewModel.RegistrationAction.*
 import com.deloitte.mostpopular.ui.authentication.registration.RegistrationViewModel.RegistrationEvent.*
 import com.deloitte.mostpopular.ui.authentication.registration.RegistrationViewModel.RegistrationState.*
@@ -141,7 +143,9 @@ class RegistrationFragment : Fragment() {
     }
 
     private fun goToMainActivity(){
-       TODO()
+        startActivity(Intent(requireContext(),MainActivity::class.java)).also {
+            requireActivity().finish()
+        }
     }
 
 }
