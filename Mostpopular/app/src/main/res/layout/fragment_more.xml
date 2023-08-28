@@ -141,7 +141,7 @@
         android:layout_height="wrap_content"
         android:text="@string/logout"
         android:drawablePadding="@dimen/padding_small"
-        android:drawableStart="@drawable/ic_search_24"
+        android:drawableStart="@drawable/ic_logout"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="@dimen/margin_small"

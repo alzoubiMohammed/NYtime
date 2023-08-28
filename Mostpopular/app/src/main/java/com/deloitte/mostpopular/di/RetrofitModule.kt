@@ -3,7 +3,6 @@ package com.deloitte.mostpopular.di
 import android.content.Context
 import com.deloitte.mostpopular.BuildConfig
 import com.deloitte.mostpopular.data.network.ApiKeyInterceptor
-import com.localebro.okhttpprofiler.OkHttpProfilerInterceptor
 import com.deloitte.mostpopular.data.network.NetworkConnectionInterceptor
 import dagger.Module
 import dagger.Provides
@@ -33,7 +32,6 @@ class RetrofitModule {
     fun provideNewsApiRetrofitClint(@ApplicationContext context: Context): OkHttpClient =
         OkHttpClient.Builder()
             .connectTimeout(10, TimeUnit.SECONDS)
-            .addInterceptor(OkHttpProfilerInterceptor())
             .addInterceptor(NetworkConnectionInterceptor(context))
             .addInterceptor(ApiKeyInterceptor(BuildConfig.API_KEY))
             .build()
