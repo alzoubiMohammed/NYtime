@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">الأكثر شهرة</string>
+    <string name="title_activity_main">النشاط الرئيسي</string>
+    <string name="title_dashboard">الرئيسيه</string>
+    <string name="title_more">المزيد</string>
+    <string name="title_login">تسجيل الدخول</string>
+    <string name="title_registration">التسجيل</string>
+    <string name="title_authentication">المصادقة</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="national_id">الرقم الوطني</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="register">التسجيل</string>
+    <string name="time_ago_seconds">منذ %d ثانية</string>
+    <string name="time_ago_minutes">منذ %d دقيقة</string>
+    <string name="time_ago_hours">منذ %d ساعة</string>
+    <string name="time_ago_days">منذ %d يوم</string>
+    <string name="time_ago_weeks">منذ %d أسبوع</string>
+    <string name="time_ago_months">منذ %d شهر</string>
+    <string name="time_ago_years">منذ %d عام</string>
+    <string name="title_action_search">البحث عن الأخبار</string>
+    <string name="filter">تصفية</string>
+    <string name="ok">موافق</string>
+    <string name="apply_filter">تأكيد</string>
+    <string name="news_details">تفاصيل الخبر</string>
+    <string name="details">تفاصيل</string>
+    <string name="settings">الإعدادات</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="language">English</string>
+    <string name="the_birth_date_can_t_be_blank">تاريخ الميلاد لا يمكن أن يكون فارغًا</string>
+    <string name="the_email_can_t_be_blank">لا يمكن أن يكون البريد الإلكتروني فارغًا</string>
+    <string name="that_s_not_a_valid_email">هذا ليس بريدًا إلكترونيًا صالحًا</string>
+    <string name="the_fullname_can_t_be_blank">لا يمكن أن يكون الاسم الكامل فارغًا</string>
+    <string name="the_national_id_needs_to_consist_of_at_least_10_numbers">يجب أن يتكون الرقم الوطني من على الأقل 10 أرقام</string>
+    <string name="the_password_needs_to_consist_of_at_least_8_characters">يجب أن تتكون كلمة المرور من على الأقل 8 أحرف</string>
+    <string name="the_password_needs_to_contain_at_least_one_letter_and_digit">يجب أن تحتوي كلمة المرور على حرف واحد على الأقل ورقم واحد على الأقل</string>
+    <string name="the_password_needs_to_contain_at_least_one_small_letter_and_big">يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل وحرف كبير واحد على الأقل</string>
+    <string name="the_phone_number_needs_to_consist_of_at_least_10_numbers">يجب أن يتكون رقم الهاتف من على الأقل 10 أرقام</string>
+
+
+    <string-array name="period_array">
+        <item>يوم واحد</item>
+        <item>7 أيام</item>
+        <item>30 يومًا</item>
+    </string-array>
+</resources>

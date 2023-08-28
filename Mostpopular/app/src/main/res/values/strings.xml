@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Mostpopular</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_more">More</string>
+    <string name="title_login">Login</string>
+    <string name="title_registration">Registration</string>
+    <string name="title_authentication">Authentication</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="national_id">National ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="register">Register</string>
+    <string name="time_ago_seconds">%d seconds ago</string>
+    <string name="time_ago_minutes">%d minutes ago</string>
+    <string name="time_ago_hours">%d hours ago</string>
+    <string name="time_ago_days">%d days ago</string>
+    <string name="time_ago_weeks">%d weeks ago</string>
+    <string name="time_ago_months">%d months ago</string>
+    <string name="time_ago_years">%d years ago</string>
+    <string name="title_action_search">Find News</string>
+    <string name="filter">Filter</string>
+    <string name="ok">OK</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="news_details">News Details</string>
+    <string name="details">Details</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="language">عربي</string>
+    <string name="the_birth_date_can_t_be_blank">The Birth Date can\'t be blank</string>
+    <string name="the_email_can_t_be_blank">The email can\'t be blank</string>
+    <string name="that_s_not_a_valid_email">That\'s not a valid email</string>
+    <string name="the_fullname_can_t_be_blank">The fullName can\'t be blank</string>
+    <string name="the_national_id_needs_to_consist_of_at_least_10_numbers">The National Id needs to consist of at least 10 numbers</string>
+    <string name="the_password_needs_to_consist_of_at_least_8_characters">The password needs to consist of at least 8 characters</string>
+    <string name="the_password_needs_to_contain_at_least_one_letter_and_digit">The password needs to contain at least one letter and digit</string>
+    <string name="the_password_needs_to_contain_at_least_one_small_letter_and_big">The password needs to contain at least one small letter and big</string>
+    <string name="the_phone_number_needs_to_consist_of_at_least_10_numbers">The Phone Number needs to consist of at least 10 numbers</string>
+
+
+    <string-array name="period_array">
+        <item>1 day </item>
+        <item>7 days</item>
+        <item>30 days</item>
+    </string-array>
+</resources>
