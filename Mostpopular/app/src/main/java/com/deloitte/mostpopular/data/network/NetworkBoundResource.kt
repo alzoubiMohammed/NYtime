@@ -16,13 +16,11 @@ abstract class NetworkBoundResource<ResultType, RequestType> {
                 val localData=loadFromLocalDb()
                 emit(Resource.Success(localData))
             } catch (e: Exception) {
-                val localData=loadFromLocalDb()
-                emit(Resource.Success(localData))
                 emit(Resource.Error(e))
+                emit(Resource.Success(localData))
             }
         } else {
-            val result=loadFromLocalDb()
-            emit(Resource.Success(result))
+            emit(Resource.Success(localData))
         }
     }.flowOn(IO)
 
