@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_navigation_dashboard_to_navigation_filter"
             app:destination="@id/navigation_filter" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
     </fragment>
     <fragment
         android:id="@+id/navigation_more"
@@ -24,6 +27,20 @@
         android:name="com.deloitte.mostpopular.ui.home.dashboard.filter.FilterBottomSheetFragment"
         android:label="fragment_filter_bottom_sheet"
         tools:layout="@layout/fragment_filter_bottom_sheet" />
-
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.deloitte.mostpopular.ui.details.NewsDetailsFragment"
+        android:label="@string/news_details"
+        tools:layout="@layout/fragment_news_details" >
+        <argument
+            android:name="date"
+            app:argType="string" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+        <argument
+            android:name="imageUrl"
+            app:argType="string" />
+    </fragment>
 
 </navigation>

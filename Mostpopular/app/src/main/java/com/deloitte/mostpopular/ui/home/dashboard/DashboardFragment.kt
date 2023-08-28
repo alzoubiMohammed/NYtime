@@ -96,7 +96,12 @@ class DashboardFragment : Fragment() {
     }
 
     private fun openNewsDetails(news: News) {
-        TODO()
+        val action = DashboardFragmentDirections.actionNavigationDashboardToNewsDetailsFragment(
+            news.date,
+            news.description,
+            news.imageUrl
+        )
+        findNavController().navigate(action)
     }
 
     private fun initListener() {
